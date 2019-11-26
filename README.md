@@ -16,3 +16,11 @@ As it stands right now, the software will pick the most flexible open source lic
 - Implement a Kernel API
 - Attempt to install third party software like `git`.
 
+## Next Steps
+- Document and create scripts for the following:
+  - All steps outlined here: https://wiki.osdev.org/Bare_Bones#Building_a_Cross-Compiler
+  - Creating custom `binutils` binaries
+  - Creating custom build-gcc binaries
+  - Creating custom build for Grub 2
+    - Documented here: https://wiki.osdev.org/GRUB_2#Installing_GRUB_2_on_OS_X
+  - Exporting environmental variables for $TARGET and $PREFIX
