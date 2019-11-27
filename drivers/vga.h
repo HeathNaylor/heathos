@@ -2,9 +2,7 @@
 #include <stddef.h>
 #include <stdint.h>
 
-namespace kernel {
-namespace drivers {
-namespace vga {
+namespace kernel::drivers::vga {
     enum color {
         BLACK = 0,
         BLUE = 1,
@@ -29,4 +27,4 @@ namespace vga {
         static inline uint8_t entry_color(enum color fg, enum color bg);
         static inline uint16_t entry(unsigned char uc, uint8_t color);
     };
-}}}
+}

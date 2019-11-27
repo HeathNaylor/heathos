@@ -6,9 +6,7 @@
  * and manage your VGA display
  */
 
-namespace kernel {
-namespace drivers {
-namespace vga {
+namespace kernel::drivers::vga {
     /* Hardware text mode color constants. */
     inline uint8_t api::entry_color(enum color fg, enum color bg) {
         return fg | bg << 4;
@@ -18,4 +16,4 @@ namespace vga {
     {
         return (uint16_t) uc | (uint16_t) color << 8;
     }
-}}}
+}
